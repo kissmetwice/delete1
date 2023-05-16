@@ -1,0 +1,239 @@
+.conteiner{ /*envolve td a pag*/
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: pink;
+}
+
+#banner{
+  background-color:rgb(255,178,207);
+  height: 200px;
+  padding: 20px;
+  display: flex; justify-content: space-between; align-items: center;
+  border-radius: 20px;
+}
+
+nav { /*aqui é o background da nav*/
+  background-color: rgb(255, 204, 224);
+  height: 40px;
+  margin-top: -1%; 
+  display: flex;
+  border: 2px solid rgb(203, 128, 157);
+  border-radius: 20px;
+}
+
+nav ul { /*'caixa' de texto dentro da nav*/
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  
+}
+
+nav li { /*cada texto uma 'caixa'*/
+  margin: 10px;
+  padding: 5px;
+  background-color: peachpuff;
+  border-radius: 20px;
+}
+
+nav a { /*texto*/
+  color: rgb(255,104,173);
+  text-decoration: none;
+  padding: 5px;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+nav a:hover { /*quando o mouse passa por cima*/
+  text-decoration: underline;
+  color: #ffffff; 
+}
+
+/*main tem c1, principal e c2*/
+main{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+  padding: 4% 1%;
+  margin: 10px;
+  border: 2px solid rgb(255, 158, 229);
+  border-radius: 20px;
+  /*align-items: center;*/
+}
+
+/*colunas s1, principal, s2*/
+#section1, #principal, #section2 {
+  padding: 10px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+  margin: 0px 10px;
+  height: 1000px;
+}
+
+/*coluna s1*/
+#section1{
+  width: 15%; /*height: 100%;*/
+  /*padding: 5px;*/
+  border: 2px solid rgb(255, 158, 229);
+  align-items: center;
+  border-radius: 20px;
+}
+
+.divsmenor, .divprincipal{
+  border: 2px solid rgb(255, 158, 229);
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*divisao das colunas dentro de section*/
+.divsmenor{
+  width: 85%;
+  height: 25%;
+  margin:5% 1%;
+}
+
+.divprincipal{
+  width: 85%;
+  height: 50%;
+  margin:15px 10px;
+}
+
+/*principal*/
+#principal{
+  width: 75%;
+  /*padding:20px;*/
+  margin:0px 10px;
+  border: 2px solid rgb(255, 158, 229);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#janela{
+  border-radius: 20px;
+  border: 2px solid rgb(255, 158, 229);
+  background-color: rgb(255, 204, 224);
+  height: 40px;
+  width: 100%;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  
+}
+
+
+#cont-armarios{
+  width: 95%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 158, 229);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.armario{
+  border-radius: 10px;
+  border: 2px solid rgb(255, 158, 229);
+  width: 10%;
+  height: 20%;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.imgs{
+  width: 50px;
+  height: 50px;
+  margin: 0px 20px;
+}
+
+.stt{
+  width: 10px; 
+  height: 10px; 
+  margin-top: 5px;
+  border-radius: 50%;  
+  border: 2px solid black;
+}
+
+/*coluna 2 dps do principal*/
+#section2{
+  width: 15%; /*height: 15%;*/
+  /*padding:15px;*/
+  margin:0px 10px/*esquerda/direita*/;
+  border: 2px solid rgb(255, 158, 229);
+  border-radius: 20px;
+  align-items: center;
+}
+
+.divprincipal ul { /*'caixa' de texto*/
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+}
+
+.divprincipal li { /*cada texto uma 'caixa'*/
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ li .stt {
+  width: 15px; 
+  height: 15px; 
+  margin: 5px;
+  border-radius: 50%;  
+  border: 2px solid black;
+}
+
+.divprincipal a { /*texto*/
+  color: rgb(255,104,173);
+  text-decoration: none;
+}
+
+footer{
+  height: 100px;
+  border: 2px solid rgb(255, 158, 229);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer h5{
+  margin: 0px;
+}
+
+footer ul { /*'caixa' que envolve tds os li*/
+  list-style: none;
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+}
+
+footer li { /*cada texto uma 'caixa'*/
+  display: flex;
+  align-items: center;
+  border: 2px dashed rgb(255, 158, 229);
+  border-radius: 20px;
+  margin: 0px 5px;
+  padding: 5px;
+}
+
+footer a { /*texto*/
+  color: rgb(255,104,173);
+  text-decoration: none;
+}
